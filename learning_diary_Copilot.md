@@ -2,6 +2,12 @@ wie kriege ich ihn dazu auf meinem Niveau zu beschreiben oder zu antworten:
 meine erfahrungen, wissensstand, studiengang klar gemacht + gefragt ob er es so einfach wie möglcih erklären kann
 ich hab den Chat auch mit den Folien der LV "gefüttert 
 -Stell dir die Seite wie einen Schrank vor. Jedes HTML-Element (<div>, <li>, <input> …) ist eine Schublade darin. document ist der Schrank selbst. Wenn du an eine Schublade willst, gehst du immer über den Schrank
+mit:
+console.log(document);
+document.title = "Mein erster Test";
+
+habe den Titel überschrieben 
+
 
 zweite frage:
 mal nur die frage 
@@ -55,3 +61,43 @@ JavaScript geht durchs Haus, findet die Tür mit dem passenden Schild und merkt 
 Ab jetzt muss es nicht mehr suchen. Wenn es liste sagt, steht es sofort in dem Zimmer und kann sich umsehen, etwas umräumen oder eine neue Kiste hineinstellen.
 
 Wichtig: Das Schild muss genau stimmen. Steht an der Tür „myList“ und du suchst „mylist“, findet JavaScript nichts. Dann bekommst du null (also „kein Zimmer gefunden“).
+
+How can I change the list "myList" in the html file?
+Erst holst du die Liste. Du gehst also ins Zimmer mit dem Schild „myList“:
+
+javascript
+let liste = document.getElementById("myList");
+
+Danach kannst du drinnen umräumen. Die vier wichtigsten Möglichkeiten:
+
+1. Eine Kiste neu beschriften (Text eines Punktes ändern)
+
+javascript
+liste.children[0].textContent = "Äpfel";
+
+Aus „Item 1“ wird „Äpfel“. children[0] ist die erste Kiste, denn gezählt wird ab 0.
+
+2. Eine neue Kiste hineinstellen (Punkt hinzufügen)
+
+javascript
+let neu = document.createElement("li");
+neu.textContent = "Item 4";
+liste.appendChild(neu);
+
+Die Liste hat jetzt 4 Punkte.
+
+3. Eine Kiste rausschmeißen (Punkt löschen)
+
+javascript
+liste.children[0].remove();
+
+Der erste Punkt ist weg.
+
+4. Das Zimmer streichen (Aussehen ändern)
+
+javascript
+liste.style.color = "blue";
+
+Die ganze Liste ist jetzt blau.
+
+Kurz gesagt: Erst das Zimmer holen (getElementById), dann drinnen umräumen.S
