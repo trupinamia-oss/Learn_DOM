@@ -12,3 +12,5 @@ in unserem Fall sind das die Items 1-3
         <li>Item 3</li>
     </ul>
 ist in unserer html bereits als solche vorhanden ab Zeile 11
+ ul in ol geändert dann ist die liste geordnet und nummeriert 
+ Leonie hat in ihrem code weitere Änderungen vorgenommen 
