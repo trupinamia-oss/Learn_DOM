@@ -6,3 +6,6 @@ let box = document.getElementById("myDiv");
 box.textContent = "Ich wurde geändert!";
 
 box.style.color = "red";
+
+let liste = document.getElementById("myList");
+console.log(liste);
