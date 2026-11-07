@@ -64,6 +64,11 @@ Ab jetzt muss es nicht mehr suchen. Wenn es liste sagt, steht es sofort in dem Z
 
 Wichtig: Das Schild muss genau stimmen. Steht an der Tür „myList“ und du suchst „mylist“, findet JavaScript nichts. Dann bekommst du null (also „kein Zimmer gefunden“).
 
+
+
+
+
+
 How can I change the list "myList" in the html file?
 Erst holst du die Liste. Du gehst also ins Zimmer mit dem Schild „myList“:
 
@@ -103,3 +108,5 @@ liste.style.color = "blue";
 Die ganze Liste ist jetzt blau.
 
 Kurz gesagt: Erst das Zimmer holen (getElementById), dann drinnen umräumen.S
+
+mit bildern und screenshots gearbeitet
