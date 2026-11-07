@@ -45,3 +45,13 @@ Das Original bleibt also komplett bestehen. Es bekommt nur ein Kind dazu
 
 Task 2 
 How can I access the list "myList" in the html file? - im selben Chat wie für die vorherigen Fragen in Task 1 
+Das heißt: Ein Zimmer hat an der Tür ein Schild mit der Aufschrift „myList“. Drinnen stehen drei Kisten: Item 1, Item 2 und Item 3.
+
+Jetzt kommt JavaScript ins Haus und will in genau dieses Zimmer. Also sagt es:
+Auf Deutsch: „Haus, bring mich zu der Tür mit dem Schild ‚myList‘.“
+
+JavaScript geht durchs Haus, findet die Tür mit dem passenden Schild und merkt sich das Zimmer unter dem Namen liste.
+
+Ab jetzt muss es nicht mehr suchen. Wenn es liste sagt, steht es sofort in dem Zimmer und kann sich umsehen, etwas umräumen oder eine neue Kiste hineinstellen.
+
+Wichtig: Das Schild muss genau stimmen. Steht an der Tür „myList“ und du suchst „mylist“, findet JavaScript nichts. Dann bekommst du null (also „kein Zimmer gefunden“).
