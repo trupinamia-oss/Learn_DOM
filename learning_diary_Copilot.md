@@ -6,7 +6,8 @@ mit:
 console.log(document);
 document.title = "Mein erster Test";
 
-habe den Titel überschrieben 
+habe den Titel überschrieben
+erste zeile geändert  
 
 
 zweite frage:
@@ -48,6 +49,7 @@ Das Original bleibt also komplett bestehen. Es bekommt nur ein Kind dazu
 
 - man kann auf einzelne Punkte eingehen - anhand von bildlichen Beispielen kann man es sich am besten Vorstellen - sind keine schlechten Dinge
 
+eine zeile rot eingefärbt- wieso nur die eine?: Diese Zeile holt nur ein einziges Element, nämlich das mit der id myDiv. Mit dem Haus-Beispiel gesagt: Du gehst nur in ein Zimmer. - hätte ich die ganze Zeile einfärben wollen - hätte ich document.body rot einfärben müssen 
 
 Task 2 
 How can I access the list "myList" in the html file? - im selben Chat wie für die vorherigen Fragen in Task 1 
