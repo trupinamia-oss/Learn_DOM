@@ -41,3 +41,7 @@ appendChild(neu) steckt das neue <li> in die bestehende Liste.
 Das Original bleibt also komplett bestehen. Es bekommt nur ein Kind dazu
 
 - man kann auf einzelne Punkte eingehen - anhand von bildlichen Beispielen kann man es sich am besten Vorstellen - sind keine schlechten Dinge
+
+
+Task 2 
+How can I access the list "myList" in the html file? - im selben Chat wie für die vorherigen Fragen in Task 1 
