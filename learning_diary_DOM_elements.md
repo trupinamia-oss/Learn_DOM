@@ -56,6 +56,15 @@ Radio-Buttons mit gleichem name gehören zusammen. Nur einer kann gewählt sein.
 
 5. button
 Ein Knopf zum Draufklicken. Er macht erst etwas, wenn man ihm sagt, was er beim Klick tun soll.
+Ein button kann man mit textContent und style verändern wie andere Elemente.
+Mit addEventListener("click", ...) sage ich dem Knopf, was er beim Klick tun soll.
+Der Code im Event Listener läuft erst beim Klick, nicht beim Laden der Seite.
+Mit einem Klick kann ich Werte aus anderen Elementen lesen und damit die Seite ändern.
 
 
-
+6. form
+Ein Formular, also ein Behälter für Eingabefelder. Alle Felder (select, input, button) liegen darin.
+Ein form ist ein Behälter für Eingabefelder.
+Mit elements komme ich an alle Felder im Formular.
+Mit reset() kann ich alle Felder auf einmal leeren.
+Die Reihenfolge im Code ist wichtig: Zuerst lesen, dann leeren.

@@ -68,3 +68,14 @@ knopf.addEventListener("click", function () {
     box.textContent = "Hallo " + nameFeld.value + "!";
     box.style.backgroundColor = farbe.value;
 });
+
+// ===== form =====
+let formular = document.getElementById("myForm");
+console.log(formular.elements.length);
+
+formular.style.border = "2px dashed blue";
+formular.style.padding = "10px";
+
+knopf.addEventListener("click", function () {
+    formular.reset();
+});
