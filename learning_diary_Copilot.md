@@ -110,3 +110,10 @@ Die ganze Liste ist jetzt blau.
 Kurz gesagt: Erst das Zimmer holen (getElementById), dann drinnen umräumen.S
 
 mit bildern und screenshots gearbeitet
+
+Div:
+Schritt 1: text anschauen
+In der Konsole steht Ich wurde geändert!
+Schritt 2: Hintergrund geben
+Das div ist gelb, und zwar über die ganze Breite der Seite.
+Ein div ist normalerweise so breit wie die ganze Seite.

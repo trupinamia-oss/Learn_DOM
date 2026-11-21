@@ -13,3 +13,4 @@ console.log(liste.children[0].textContent);
 
 // ===== div =====
 console.log(box.textContent);
+box.style.backgroundColor = "yellow";
