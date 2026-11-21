@@ -119,3 +119,10 @@ Das div ist gelb, und zwar über die ganze Breite der Seite.
 Ein div ist normalerweise so breit wie die ganze Seite.
 Schritt 3: Rahmen und Abstand
 Schritt 4: Fetter Text mit innerHTML
+
+
+table
+Schritt 1: Tabelle holen und Zeilen zählen
+Schritt 2: Ein Feld auslesen
+Schritt 3: Ein Feld ändern
+Schritt 4: Neue Zeile anhängen

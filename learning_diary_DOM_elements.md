@@ -20,3 +20,15 @@ ist in unserer html bereits als solche vorhanden ab Zeile 11
 
 Was ist ein div?
 Ein div ist eine leere Box auf der Seite. Sie macht von sich aus nichts Besonderes, man kann aber Text oder andere Elemente hineinlegen. Im Haus-Bild ist das ein leeres Zimmer, das du einrichten kannst, wie du willst.
+
+2. table
+
+Was ist das? Eine Tabelle mit Zeilen und Spalten. Wie ein Regal mit Fächern.
+
+<tr> ist eine Zeile (table row).
+<td> ist ein Feld (table data).
+<th> ist ein Überschrift-Feld (table header).
+Eine Tabelle besteht aus Zeilen (tr) und Feldern (td, th).
+Mit rows und cells komme ich an jedes einzelne Feld. Gezählt wird ab 0.
+Die Überschrift-Zeile zählt bei rows.length mit.
+Mit insertRow() und insertCell() kann ich neue Zeilen hinzufügen.
