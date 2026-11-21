@@ -44,3 +44,9 @@ neueFarbe.value = "orange";
 neueFarbe.textContent = "Orange";
 farbe.appendChild(neueFarbe);
 
+
+// ===== input =====
+let nameFeld = document.getElementById("name");
+nameFeld.placeholder = "Dein Name hier";
+
+nameFeld.value = "Mia";
