@@ -47,3 +47,10 @@ Mit .value lese ich die Auswahl und kann sie auch ändern.
 options.length zählt die Auswahlmöglichkeiten.
 Neue Optionen baue ich wie neue Listenpunkte: createElement, beschriften, appendChild.
 
+4. input
+Ein Feld, in das man etwas eingibt. Es gibt verschiedene Arten (type): Textfeld, Checkbox, Radio-Button..
+input ist ein Eingabefeld, und es gibt verschiedene Arten (type).
+Beim Textfeld nutze ich value (Inhalt) und placeholder (grauer Hinweis).
+Bei Checkbox und Radio-Button nutze ich checked (true oder false).
+Radio-Buttons mit gleichem name gehören zusammen. Nur einer kann gewählt sein.
+

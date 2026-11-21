@@ -50,3 +50,5 @@ let nameFeld = document.getElementById("name");
 nameFeld.placeholder = "Dein Name hier";
 
 nameFeld.value = "Mia";
+document.getElementById("agree").checked = true;
+document.getElementById("sizeLarge").checked = true;
