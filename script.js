@@ -79,3 +79,14 @@ formular.style.padding = "10px";
 knopf.addEventListener("click", function () {
     formular.reset();
 });
+
+// ===== canvas =====
+let zeichnung = document.getElementById("myCanvas");
+let pinsel = zeichnung.getContext("2d");
+
+pinsel.fillStyle = "pink";
+pinsel.fillRect(20, 20, 100, 60);
+
+pinsel.fillStyle = "black";
+pinsel.font = "20px Arial";
+pinsel.fillText("Hallo Canvas!", 140, 60);

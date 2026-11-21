@@ -68,3 +68,13 @@ Ein form ist ein Behälter für Eingabefelder.
 Mit elements komme ich an alle Felder im Formular.
 Mit reset() kann ich alle Felder auf einmal leeren.
 Die Reihenfolge im Code ist wichtig: Zuerst lesen, dann leeren.
+
+
+7. canvas
+
+Eine leere Zeichenfläche. Mit JavaScript kann man darauf malen. Wie eine Leinwand mit Pinsel.
+Ein canvas ist eine leere Zeichenfläche. Ohne Rahmen sieht man sie nicht.
+Mit getContext("2d") bekomme ich einen „Pinsel“ zum Malen.
+Mit fillStyle wähle ich die Farbe, mit fillRect male ich ein Rechteck.
+Die Zahlen sind Positionen in Pixeln: von links und von oben.
+Auf dem Canvas wird alles gemalt, es gibt keine Elemente darin wie bei einer Liste.
