@@ -56,3 +56,15 @@ document.getElementById("sizeLarge").checked = true;
 // ===== button =====
 let knopf = document.getElementById("submitBtn");
 knopf.textContent = "Abschicken";
+
+knopf.style.backgroundColor = "green";
+knopf.style.color = "white";
+
+knopf.addEventListener("click", function () {
+    console.log("Knopf wurde geklickt!");
+});
+
+knopf.addEventListener("click", function () {
+    box.textContent = "Hallo " + nameFeld.value + "!";
+    box.style.backgroundColor = farbe.value;
+});
