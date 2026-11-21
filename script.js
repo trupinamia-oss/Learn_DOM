@@ -27,3 +27,20 @@ tabelle.rows[2].cells[1].textContent = "99";
 let neueZeile = tabelle.insertRow();
 neueZeile.insertCell().textContent = "Clara";
 neueZeile.insertCell().textContent = "22";
+
+
+// ===== select / option =====
+let farbe = document.getElementById("color");
+console.log(farbe.value);
+
+console.log(farbe.options.length);
+
+
+
+farbe.value = "blue";
+
+let neueFarbe = document.createElement("option");
+neueFarbe.value = "orange";
+neueFarbe.textContent = "Orange";
+farbe.appendChild(neueFarbe);
+

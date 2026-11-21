@@ -32,3 +32,18 @@ Eine Tabelle besteht aus Zeilen (tr) und Feldern (td, th).
 Mit rows und cells komme ich an jedes einzelne Feld. Gezählt wird ab 0.
 Die Überschrift-Zeile zählt bei rows.length mit.
 Mit insertRow() und insertCell() kann ich neue Zeilen hinzufügen.
+
+
+3. select / option
+Ein Auswahlmenü (Dropdown).
+
+<select> ist das ganze Menü.
+<option> ist eine einzelne Auswahl darin.
+
+Das ist ähnlich wie ul und li!
+Diary: select/option
+select ist das ganze Menü, option eine einzelne Auswahl, ähnlich wie ul und li.
+Mit .value lese ich die Auswahl und kann sie auch ändern.
+options.length zählt die Auswahlmöglichkeiten.
+Neue Optionen baue ich wie neue Listenpunkte: createElement, beschriften, appendChild.
+
