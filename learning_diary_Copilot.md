@@ -126,3 +126,18 @@ Schritt 1: Tabelle holen und Zeilen zählen
 Schritt 2: Ein Feld auslesen
 Schritt 3: Ein Feld ändern
 Schritt 4: Neue Zeile anhängen
+
+
+select/option
+Schritt 1: Menü holen und Auswahl lesen
+Schritt 2: Optionen zählen
+Schritt 3: Auswahl mit JavaScript ändern
+Schritt 4: Neue Option hinzufügen
+
+input 
+Schritt 1: Textfeld holen und einen Hinweis hineinschreiben
+Schritt 2: Text ins Feld schreiben
+Schritt 3: Checkbox anhaken
+
+button 
+Schritt 1: Knopf holen und umbenennen

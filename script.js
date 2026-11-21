@@ -52,3 +52,7 @@ nameFeld.placeholder = "Dein Name hier";
 nameFeld.value = "Mia";
 document.getElementById("agree").checked = true;
 document.getElementById("sizeLarge").checked = true;
+
+// ===== button =====
+let knopf = document.getElementById("submitBtn");
+knopf.textContent = "Abschicken";

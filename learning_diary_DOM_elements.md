@@ -54,3 +54,8 @@ Beim Textfeld nutze ich value (Inhalt) und placeholder (grauer Hinweis).
 Bei Checkbox und Radio-Button nutze ich checked (true oder false).
 Radio-Buttons mit gleichem name gehören zusammen. Nur einer kann gewählt sein.
 
+5. button
+Ein Knopf zum Draufklicken. Er macht erst etwas, wenn man ihm sagt, was er beim Klick tun soll.
+
+
+
