@@ -149,3 +149,10 @@ form
 Schritt 1: Formular holen und Felder zählen
 Schritt 2: Das Formular sichtbar machen
 Schritt 3: Nach dem Klick alles leeren
+
+
+canvas
+Schritt 1: Canvas in die HTML einfügen Das ist diesmal in der index.html!
+Schritt 2: Den „Pinsel“ holen (jetzt wieder in der script.js)
+Schritt 3: Ein Rechteck malen
+Schritt 4: Text malen
