@@ -117,3 +117,5 @@ In der Konsole steht Ich wurde geändert!
 Schritt 2: Hintergrund geben
 Das div ist gelb, und zwar über die ganze Breite der Seite.
 Ein div ist normalerweise so breit wie die ganze Seite.
+Schritt 3: Rahmen und Abstand
+Schritt 4: Fetter Text mit innerHTML
