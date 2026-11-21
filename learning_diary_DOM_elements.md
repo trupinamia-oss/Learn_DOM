@@ -14,3 +14,9 @@ in unserem Fall sind das die Items 1-3
 ist in unserer html bereits als solche vorhanden ab Zeile 11
  ul in ol geändert dann ist die liste geordnet und nummeriert 
  Leonie hat in ihrem code weitere Änderungen vorgenommen 
+
+
+ 1. div
+
+Was ist ein div?
+Ein div ist eine leere Box auf der Seite. Sie macht von sich aus nichts Besonderes, man kann aber Text oder andere Elemente hineinlegen. Im Haus-Bild ist das ein leeres Zimmer, das du einrichten kannst, wie du willst.
